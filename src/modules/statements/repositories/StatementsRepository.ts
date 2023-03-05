@@ -61,4 +61,7 @@ export class StatementsRepository implements IStatementsRepository {
 
     return { balance }
   }
+
+  async transfer(id_user_from: string, id_user_to: string) {
+  }
 }
